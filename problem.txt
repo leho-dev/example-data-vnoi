@@ -91,3 +91,14 @@ int main() {
     return 0;
 }
 ```
+
+Init Code (C++):
+
+```
+#include <bits/stdc++.h>
+
+std::vector<int> twoSum(const std::vector<int>& nums, int target) {
+
+    return {};
+}
+```
