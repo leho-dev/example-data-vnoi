@@ -50,8 +50,8 @@ int main() {
     // open input.txt and output.txt
     // `input.txt` and `output.txt` are constant, do not change them
     // you should copy from here to begin of next comment
-    std::ifstream iFile("input.txt");
-    std::ofstream oFile("output.txt");
+    std::ifstream iFile("/app/input.txt");
+    std::ofstream oFile("/app/output.txt");
     
     if (!iFile) {
         std::cerr << "Failed to open input.txt" << std::endl;
